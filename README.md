@@ -6,6 +6,15 @@ An easy to clone fast production reverse-proxy setup using NGINX with basic conn
 
 This configuration optimizes performance, security, and user experience by implementing best practices for Nginx. It includes rate limiting, gzip compression, SSL configuration, and error handling to ensure robust service delivery.
 
+* [Configuration Sections](#configuration-sectionstion)
+* [Worker Processes and Limits](#worker-processes-and-limits)
+* [HTTP Settings](#http-settings)
+* [Rate Limit Useragents Setup](#rate-limit-useragents-setup)
+* [Load Balancing Setup](#load-balancing-setup)
+* [Advanced Reverse Proxy Configuration](#advanced-reverse-proxy-configuration)
+* [Simple Reverse Proxy Configuration](#simple-reverse-proxy-configuration)
+* [Security Measures](##security-measures)
+
 ## Configuration Sections
 
 #### Common Errors
@@ -362,6 +371,4 @@ server {
 - User agent blacklisting to limit web crawlers.
 - Strong Content Security Policy (CSP) to enhance security.
 
-For further customization or troubleshooting, please refer to the Nginx documentation.
-
-Feel free to modify any sections to better fit your project's specific needs!
+For further customization or troubleshooting, please refer to the <a href="https://nginx.org/en/docs/">Nginx documentation</a>.
